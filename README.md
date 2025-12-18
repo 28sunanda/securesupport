@@ -185,4 +185,4 @@ This project was built for the CyborgDB Hackathon 2025 to demonstrate secure, en
 
 Sunanda Mandal
 - GitHub: [@28sunanda](https://github.com/28sunanda)
-- Submission Date: December 18, 2025
+- Linkedin: https://www.linkedin.com/in/sunanda-mandal
