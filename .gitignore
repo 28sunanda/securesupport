@@ -1,6 +1,26 @@
+# Virtual environment
 venv/
-__pycache__/
-*.pyc
+.venv/
+
+# Environment variables
 .env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Encryption key - NEVER commit this!
+encryption_key.bin
+
+# Generated data
 tickets.json
-*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
