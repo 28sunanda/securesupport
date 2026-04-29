@@ -8,6 +8,12 @@ Submitted by: Sunanda Mandal
 
 SecureSupport is a privacy-preserving RAG system for telecom customer support that uses CyborgDB's encrypted vector search to eliminate the vector inversion vulnerability present in traditional vector databases.
 
+## Security Analysis
+This system includes a formal MITRE ATLAS threat model covering 
+5 attack vectors including direct and indirect prompt injection, 
+knowledge base exfiltration, and data poisoning. 
+See [THREAT_MODEL.md](./THREAT_MODEL.md).
+
 ## Problem
 
 Vector embeddings in standard databases can be inverted to reconstruct original data. For telecom companies handling sensitive customer data (PII, account details, support history), this is unacceptable.
